@@ -4,19 +4,25 @@ subtitle: "Version 1.0.2 - October 2026"
 format: typst
 toc: true
 toc-depth: 3
+bibliography: refs.bib
 ---
 
-```{=typst} 
+```{=typst}
 // Make all links blue and underlined (classic web style)
 #show link: it => {
   set text(fill: blue)
   underline(it)
 }
+
+// Change the name from Bibliography to References
+#set bibliography(title: "References")
+
+// Spacing around headers
+#show heading.where(level: 2): set block(above: 1.5em)
+#show heading.where(level: 1): set block(above: 2.5em)
 ```
 
-## General Note
-
-We must abide by all Hutch, NIH, and journal required policies. As a research group, we also share additional considerations and guidelines below. For this document, _AI_ refers to generative large language models applied through chat interfaces, agents, plugins, and other contexts.
+We must abide by all Hutch, NIH, and journal required policies. As a research group, we also share additional considerations and guidelines below. For this document, *AI* refers to generative large language models applied through chat interfaces, agents, plugins, and other contexts.
 
 <!-- ############################# -->
 
@@ -24,17 +30,19 @@ We must abide by all Hutch, NIH, and journal required policies. As a research gr
 
 In general, under Fred Hutch policy, We prioritize scientific validity and reliability in our research, which includes a responsibility to continuously evaluate AI systems used in this context for their **validity, interpretability, and reliability**.
 
-### Hutch AI Policy Links
+::: {.block fill='rgb("#f0f8ff")' inset="12pt" radius="4pt" width="100%"}
+**Hutch AI Policy Links**
 
 - [Responsible Use of Artificial Intelligence (AI)](https://centernet.fredhutch.org/u/tda/ai.html)
 
 - [Using AI in Biomedical Research](https://sciwiki.fredhutch.org/datascience/ai_coding)
+:::
 
 ### Fred Hutch Areas of Concern for AI Use
 
 To protect sensitive data and uphold ethical standards, certain practices are restricted:
 
-- **No Sensitive Data in AI Systems**: Never input Internal, Protected or Restricted Use data into consumer generative AI systems (e.g., ChatGPT) unless you’ve completed an AI Risk Review (AIR) and use has been deemed Low Risk. This includes patient data shared with UW Medicine.
+- **No Sensitive Data in AI Systems**: Never input internal, protected or restricted Use data into consumer generative AI systems (e.g., ChatGPT) unless you’ve completed an AI Risk Review (AIR) and use has been deemed Low Risk. This includes patient data shared with UW Medicine.
 
 - **Don’t Automate Human Judgment**: Avoid using AI to replace human decision-making or analysis workflows.
 
@@ -62,7 +70,7 @@ To protect sensitive data and uphold ethical standards, certain practices are re
 
 - Inquiry and investigation from the Fred Hutch Research Integrity Officer (RIO)
 
-- Actions including, but not limited to, a temporary suspension of research, additional monitoring of the research process and the handling of federal funds and equipment, reassignment of personnel or of the responsibility for the handling of federal funds and equipment, additional review of research data and results, delaying publication, or informing the research community or the public \[[source](https://fredhutch-fhccresearchcenter.policystat.com/policy/19563215/latest)\].
+- Actions including, but not limited to, a temporary suspension of research, additional monitoring of the research process and the handling of federal funds and equipment, reassignment of personnel or of the responsibility for the handling of federal funds and equipment, additional review of research data and results, delaying publication, or informing the research community or the public [@fh_rsch_misconduct].
 
 - Termination
 
@@ -70,9 +78,13 @@ To protect sensitive data and uphold ethical standards, certain practices are re
 
 ## NIH Policy
 
-### NIH AI Policy Links
+Many of our grants are funded by NIH. It is therefore important that we adhere to their AI policies.
 
-- https://grants.nih.gov/grants/guide/notice-files/NOT-OD-25-132.html
+::: {.block fill='rgb("#f0f8ff")' inset="12pt" radius="4pt" width="100%"}
+**NIH AI Policy Links**
+
+- [Supporting Fairness and Originality in NIH Research Applications](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-25-132.html)
+:::
 
 ### NIH Areas of Concern for AI Use
 
@@ -138,7 +150,9 @@ Our lab policy falls under Fred Hutch policy, meaning that any concerns by the o
 
 ### Impacts on Society
 
-Please see this resource for more information: [CCCIF Preconference AI workshop](https://docs.google.com/presentation/d/1SSAsaE_R_SJqafv3GZYfQDh40idFBVF4uCoBOgGnBtQ/edit?usp=sharing)
+::: {.block fill='rgb("#f0f8ff")' inset="12pt" radius="4pt" width="100%"}
+Presentation: [CCCIF Preconference AI workshop: AI for Cancer Center Community Outreach and Engagement (COE)](https://docs.google.com/presentation/d/1SSAsaE_R_SJqafv3GZYfQDh40idFBVF4uCoBOgGnBtQ/edit?usp=sharing)
+:::
 
 - **Environmental cost**: 10 prompts to make an image, 3 attempts to make a video, and 15 general prompts may be equivalent to running the microwave for 3.5 hours or riding an electric bike for 100 miles. \[Source\]. We should be judicious about using AI when it is most helpful and attempt to use the best prompts initially. Using tools that we download locally can be much more energy efficient. Using tools with a high AI energy score can help encourage developers to use better practices. You can track usage with Offset AI.
 
@@ -146,11 +160,11 @@ Please see this resource for more information: [CCCIF Preconference AI workshop]
 
 - **Transparency**: using tools with a high transparency index helps push developers to be more transparent.
 
-- **Impact on intellectual and artistic works**: LLMs are trained using data (e.g., paywalled articles, copyrighted art) and rarely credit the original author \[[See discussion here](https://ctl.duke.edu/ai-ethics-learning-toolkit/is-ai-theft/)\]. Former freelance artistic tasks may be outsourced to AI, limiting the creative workforce.
+- **Impact on intellectual and artistic works**: LLMs are trained using data (e.g., paywalled articles, copyrighted art) and rarely credit the original author [@is_ai_theft]. Former freelance artistic tasks may be outsourced to AI, limiting the creative workforce.
 
 - **Privacy cost**: Training data may also include user data that many users expect to have been kept private (such as email inboxes, or private GitHub repositories).
 
-- **Social cost**: Models are fine-tuned on human feedback data, referred to as reinforcement learning from human feedback (RLHF). This includes examples of violence, sexual abuse, and hate speech categorized by human workers. From [Oliver et al. 2024](https://www.cambridge.org/core/journals/environmental-data-science/article/opening-a-conversation-on-responsible-environmental-data-science-in-the-age-of-large-language-models/95FD09526541A19436F3A18ADE332953), “OpenAI outsourced labor for this task to workers in Kenya, paying \<\$2 per hour for the identification of harmful text samples. Some workers were made physically ill by these images and descriptions of violence and abuse… outsourcing is a common practice for training AI models that need large sets of labeled data, presenting a social and ethical cost largely unseen by end users.” \[[See also](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6443000); [See also](https://www.404media.co/ai-is-african-intelligence-the-workers-who-train-ai-are-fighting-back/)\].
+- **Social cost**: Models are fine-tuned on human feedback data, referred to as reinforcement learning from human feedback (RLHF). This includes examples of violence, sexual abuse, and hate speech categorized by human workers. From @Oliver2024, “OpenAI outsourced labor for this task to workers in Kenya, paying \<\$2 per hour for the identification of harmful text samples. Some workers were made physically ill by these images and descriptions of violence and abuse… outsourcing is a common practice for training AI models that need large sets of labeled data, presenting a social and ethical cost largely unseen by end users.” \[[See also](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6443000); [See also](https://www.404media.co/ai-is-african-intelligence-the-workers-who-train-ai-are-fighting-back/)\].
 
 - Using AI for scientific writing can erode trust in the scientific enterprise.
 
@@ -163,7 +177,7 @@ Please see this resource for more information: [CCCIF Preconference AI workshop]
 ✅ Use AI when: you need help troubleshooting when you are stuck, you have something tedious to do, or to check your work, rather than using AI to directly do your work.
 
 ::: {.block fill="luma(240)" inset="12pt" radius="4pt" width="100%"}
-**Example**: reformatting text into a table. 
+**Example**: reformatting text into a table.
 
 See [this cheatsheet for information about everyday AI uses](https://www.ottrproject.org/cheatsheets/ai_everyday_uses.html).
 :::
@@ -184,7 +198,7 @@ See [this cheatsheet for information about everyday AI uses](https://www.ottrpro
 
 ✅ You can use AI to help you write code from scratch, but you need to understand what the code is doing.
 
-❌ Do not share code without testing it. Be sure you can explain any inputs and outputs. 
+❌ Do not share code without testing it. Be sure you can explain any inputs and outputs.
 
 ❌ Do not deploy any AI-generated code publicly (i.e., on GitHub) without thorough review.
 
@@ -212,13 +226,13 @@ NIH has policies against using AI for generating ideas.
 
 ✅ Most journals do allow AI for editing, however, check the journal’s policies ahead of time (that we plan to submit to)
 
-  - Be aware that if you copy paste your writing into a commercial AI tool, that content may be kept by the tool and possibly even leaked to other users
-  
-  - Again be careful to check all references suggested by AI - many models hallucinate fake or incorrect references
-  
-  - Check any facts or statistics from AI as well
+- Be aware that if you copy paste your writing into a commercial AI tool, that content may be kept by the tool and possibly even leaked to other users
 
-❌ AI should not be used for writing papers from scratch. 
+- Again be careful to check all references suggested by AI - many models hallucinate fake or incorrect references
+
+- Check any facts or statistics from AI as well
+
+❌ AI should not be used for writing papers from scratch.
 
 - This is because many journals have policies against this. While other journals do not have these policies, it can be difficult to tell exactly where we might submit, as we may need to submit to several journals.
 
@@ -228,7 +242,7 @@ NIH has policies against using AI for generating ideas.
 
 ✅ AI can mine metadata or summarize findings from published work.
 
-❌ AI should never be used to help you perform peer review on a paper. 
+❌ AI should never be used to help you perform peer review on a paper.
 
 - Copying and pasting text into a commercial tool is a violation of the privacy restrictions; papers in review are considered confidential and this process is supposed to be human-driven. AI-assisted review is basically never permitted by journals.
 
@@ -240,8 +254,8 @@ Here are the associated slides: [Navigating AI ethics for scientific research](h
 
 ## Attribution
 
-This policy draws from [SOURCES].
+This policy draws from \[SOURCES\].
 
 ## Review
 
-This Policy is reviewed at [cadence] and as suggestions arise from community input.
+This Policy is reviewed at \[cadence\] and as suggestions arise from community input.
