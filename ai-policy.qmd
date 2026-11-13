@@ -1,0 +1,261 @@
+---
+title: "Data Science Collaborative AI Policy"
+subtitle: "Version 1.0.2 - October 2026"
+format: typst
+toc: true
+toc-depth: 3
+---
+
+```{=typst} 
+// Make all links blue and underlined (classic web style)
+#show link: it => {
+  set text(fill: blue)
+  underline(it)
+}
+```
+
+## General Note
+
+We must abide by all Hutch, NIH, and journal required policies. As a research group, we also share additional considerations and guidelines below. For this document, _AI_ refers to generative large language models applied through chat interfaces, agents, plugins, and other contexts.
+
+Please note that this policy will change as AI technology evolves and other regulations and policies that we must follow are updated. 
+<!-- ############################# -->
+
+## Fred Hutch AI Use Policy
+
+In general, under Fred Hutch policy, We prioritize scientific validity and reliability in our research, which includes a responsibility to continuously evaluate AI systems used in this context for their **validity, interpretability, and reliability**.
+
+### Hutch AI Policy Links
+
+- [Responsible Use of Artificial Intelligence (AI)](https://centernet.fredhutch.org/u/tda/ai.html)
+
+- [Using AI in Biomedical Research](https://sciwiki.fredhutch.org/datascience/ai_coding)
+
+### Fred Hutch Areas of Concern for AI Use
+
+To protect sensitive data and uphold ethical standards, certain practices are restricted:
+
+- **No Sensitive Data in AI Systems**: Never input Internal, Protected or Restricted Use data into consumer generative AI systems (e.g., ChatGPT) unless you’ve completed an AI Risk Review (AIR) and use has been deemed Low Risk. This includes patient data shared with UW Medicine.
+
+- **Don’t Automate Human Judgment**: Avoid using AI to replace human decision-making or analysis workflows.
+
+- **Protect your Inventions**: In addition to posing a potential public disclosure risk to Fred Hutch inventions, AI use in the development of new inventions may complicate matters involving inventorship and IP ownership.
+
+- **No Clinical Use Without Review**: No actions should ever be taken related to clinical care decisions based on the output of an unvalidated AI system.
+
+- **Validate Everything**: Don’t rely on AI outputs without checking them through independent methods appropriate to your work.
+
+- **Respect Licensing**: Make sure you understand and follow the terms of use for any AI system.
+
+### More generally, the following are NOT permitted under Hutch Policy
+
+- Unauthorized access to systems or data.
+
+- Password sharing or credential lending under any circumstances.
+
+- Attempting to bypass, interfere with, or disable security monitoring systems.
+
+- Engaging in activities that degrade system performance or undermine security controls.
+
+- Conducting outside employment, private consulting, commercial activities, or political campaigning using institutional resources.
+
+### Potential Consequences for Policy Violations
+
+- Inquiry and investigation from the Fred Hutch Research Integrity Officer (RIO)
+
+- Actions including, but not limited to, a temporary suspension of research, additional monitoring of the research process and the handling of federal funds and equipment, reassignment of personnel or of the responsibility for the handling of federal funds and equipment, additional review of research data and results, delaying publication, or informing the research community or the public \[[source](https://fredhutch-fhccresearchcenter.policystat.com/policy/19563215/latest)\].
+
+- Termination
+
+<!-- ############################# -->
+
+## NIH Policy
+
+### NIH AI Policy Links
+
+- https://grants.nih.gov/grants/guide/notice-files/NOT-OD-25-132.html
+
+### NIH Areas of Concern for AI Use
+
+NIH will not consider applications to be original ideas of the applicant that are either:
+
+- Substantially developed by AI
+
+- Contain sections substantially developed by AI
+
+### Potential Consequences for Policy Violations
+
+If the detection of AI is identified post award, NIH may refer the matter to the Office of Research Integrity to determine whether there is research misconduct while simultaneously taking [enforcement actions](https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200/subpart-D/subject-group-ECFR86b76dde0e1e9dc/section-200.339) including but not limited to:
+
+- Disallowing costs
+
+- Withholding future awards
+
+- Wholly or in part suspending the grant
+
+- Possible termination
+
+<!-- ############################# -->
+
+## Lab AI Use Policy
+
+Our lab policy falls under Fred Hutch policy, meaning that any concerns by the organization as a whole propagate to our lab group. We share here additional guidelines that align with our mission of making data science reproducible, transparent, and accessible to the broadest audience of learners. We ask you to consider *impacts on yourself, impacts on your colleagues, and impacts on society* when choosing to use AI.
+
+### Impacts on You
+
+- Reliance on AI use can inhibit skilling - it can cause de-skilling, never-skilling, or miss-skilling. Consider that some skills, such as problem solving and critical thinking, are poorly defined and may atrophy without you realizing it. You may not know which skills will be important to you in the future.
+
+  - As an analogy, we might feel okay about outsourcing arithmetic to a calculator since it’s much faster, but it might mean we get worse at mental math. We should consider the tradeoffs of all skills outsourced to AI tools.
+
+- Under NIH policies, PIs are required to mentor trainees in responsible research practices. Using AI might limit the opportunity for authentic, teachable experiences that build mentor and mentee relationships.
+
+- You lose ownership over ideas that are submitted in text form to online chat platforms.
+
+### Impacts on Your Colleagues and Our Lab
+
+- AI tools can currently pose extra security risks, particularly if given access to passwords and other credentials. Do not give tools access to your profiles on platforms like GitHub where we store much of our work. This puts our work at risk. Multiple instances of security issues with AI have happened or been suggested, including:
+
+    - https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html?m=1
+    - https://www.pointguardai.com/ai-security-incidents/hidden-repo-instructions-turn-chatgpt-github-connector-into-secret-thief
+    - https://www.fortra.com/blog/ai-companies-accidentally-leak-passwords-digital-keys-github
+    
+    
+- Using AI in collaborative work can sometimes create more work for your colleagues, leading to inappropriate offloading of tasks
+
+  - Examples (ie code review)
+
+- Use of AI can slow our progress and capacity for collaboration by:
+
+  - Creating a lack of awareness for the source of our information
+
+  - Obscuring how decisions were made
+
+  - Can increase tech debt in terms of understanding how our tools work
+
+- Our group relies on credibility to create trusted resources:
+
+  - We must be good examples of the practices we preach
+
+  - We must always be transparent about AI usage
+
+  - The public tends to appreciate and trust human-driven authentic work over AI-derived work, therefore our work should be more human-driven especially when it comes to writing guidance about best practices for research
+
+  - We must check everything that we create with AI to ensure that it is correct and up-to-date with best practices
+
+- Submitting your colleagues’ ideas to AI databases without their permission could be considered intellectual theft. Always check with them first.
+
+### Impacts on Society
+
+Please see this resource for more information: [CCCIF Preconference AI workshop](https://docs.google.com/presentation/d/1SSAsaE_R_SJqafv3GZYfQDh40idFBVF4uCoBOgGnBtQ/edit?usp=sharing)
+
+- **Environmental cost**: 10 prompts to make an image, 3 attempts to make a video, and 15 general prompts may be equivalent to running the microwave for 3.5 hours or riding an electric bike for 100 miles. \[Source\]. We should be judicious about using AI when it is most helpful and attempt to use the best prompts initially. Using tools that we download locally can be much more energy efficient. Using tools with a high AI energy score can help encourage developers to use better practices. You can track usage with Offset AI.
+
+- **Inherent bias**: Our tools are inherently biased because the training material for most tools was essentially the internet - consider output with this lens and include requests for consideration of bias in your prompts.
+
+- **Transparency**: using tools with a high transparency index helps push developers to be more transparent.
+
+- **Impact on intellectual and artistic works**: LLMs are trained using data (e.g., paywalled articles, copyrighted art) and rarely credit the original author \[[See discussion here](https://ctl.duke.edu/ai-ethics-learning-toolkit/is-ai-theft/)\]. Former freelance artistic tasks may be outsourced to AI, limiting the creative workforce.
+
+- **Privacy cost**: Training data may also include user data that many users expect to have been kept private (such as email inboxes, or private GitHub repositories).
+
+- **Social cost**: Models are fine-tuned on human feedback data, referred to as reinforcement learning from human feedback (RLHF). This includes examples of violence, sexual abuse, and hate speech categorized by human workers. From [Oliver et al. 2024](https://www.cambridge.org/core/journals/environmental-data-science/article/opening-a-conversation-on-responsible-environmental-data-science-in-the-age-of-large-language-models/95FD09526541A19436F3A18ADE332953), “OpenAI outsourced labor for this task to workers in Kenya, paying \<\$2 per hour for the identification of harmful text samples. Some workers were made physically ill by these images and descriptions of violence and abuse… outsourcing is a common practice for training AI models that need large sets of labeled data, presenting a social and ethical cost largely unseen by end users.” \[[See also](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6443000); [See also](https://www.404media.co/ai-is-african-intelligence-the-workers-who-train-ai-are-fighting-back/)\].
+
+- Using AI for scientific writing can erode trust in the scientific enterprise.
+
+### Use in Our Lab: Research & General Practice
+
+✅ Track when you use AI and what you use it for (including the tool and version), as we will need to acknowledge that. See [this attribution toolkit](https://aiattribution.github.io/) for how to acknowledge usage. This includes usage for writing code, editing writing, or anything that might impact the reproduction or integrity of your research.
+
+✅ Always check any citations, code, text, or facts given to you from AI.
+
+✅ Use AI when: you need help troubleshooting when you are stuck, you have something tedious to do, or to check your work, rather than using AI to directly do your work.
+
+✅  Use specific tools where possible. When using AI, use a tool that is designed for the job. For example, for troubleshooting Docker workflows use [Gordon](https://docs.docker.com/ai/gordon/), rather than a general tool like ChatGPT. 
+
+::: {.block fill="luma(240)" inset="12pt" radius="4pt" width="100%"}
+**Example**: reformatting text into a table. 
+
+See [this cheatsheet for information about everyday AI uses](https://www.ottrproject.org/cheatsheets/ai_everyday_uses.html).
+:::
+
+❌ Never paste private information into a commercial public AI tool, as this information will likely be kept by the tool developer and could be leaked to other users.
+
+❌ Do not use code, references, writing, etc. produced by AI without checking it.
+
+❌ Do not use AI to do tasks themselves, but rather help you with code to do a task. For example, don’t use AI to directly alter a file, rather write code that can help you reproducibly alter a file.
+
+❌ Do not use tools that use your credentials (including GitHub) unless discussed with our group. This can lead to security vulnerabilities and ultimately loss of intellectual property, and is a violation of the current Hutch policy.
+
+❌ Do not use new tools without getting approval from your PI
+
+### Use in Our Lab: Code
+
+✅ AI can help you refactor, translate, understand, and document your code. See our [AI for Efficient Programming Course](https://github.com/fhdsl/AI_for_Efficient_Programming).
+
+✅ You can use AI to help you write code from scratch, but you need to understand what the code is doing.
+
+❌ Do not share code without testing it. Be sure you can explain any inputs and outputs. 
+
+❌ Do not deploy any AI-generated code publicly (i.e., on GitHub) without thorough review.
+
+### Use in Our Lab: Grant Writing
+
+✅ AI should be used for specific tasks rather than writing large sections of the proposal.
+
+::: {.block fill="luma(240)" inset="12pt" radius="4pt" width="100%"}
+**Example**: helping you understand what is required in the grant announcement, reworking text into a table or other format, understanding a new topic, improving a paragraph or sentence, or making text more concise. Check all references as AI can hallucinate references.
+
+Be aware that your ideas will no longer be private if you paste them into a public AI tool
+:::
+
+❌ Do not submit sensitive intellectual property / ideas to a public AI tool.
+
+❌ AI can help inspire idea generation, but should not be used to generate ideas.
+
+::: {.block fill="luma(240)" inset="12pt" radius="4pt" width="100%"}
+**Example**: asking about a particular topic or how two two topics relate to each other.
+
+NIH has policies against using AI for generating ideas.
+:::
+
+### Use in Our Lab: Manuscript Writing
+
+✅ Most journals do allow AI for editing, however, check the journal’s policies ahead of time (that we plan to submit to)
+
+  - Be aware that if you copy paste your writing into a commercial AI tool, that content may be kept by the tool and possibly even leaked to other users
+  
+  - Again be careful to check all references suggested by AI - many models hallucinate fake or incorrect references
+  
+  - Check any facts or statistics from AI as well
+
+❌ AI should not be used for writing papers from scratch. 
+
+- This is because many journals have policies against this. While other journals do not have these policies, it can be difficult to tell exactly where we might submit, as we may need to submit to several journals.
+
+### Use in Our Lab: Literature Review / Peer Review
+
+✅ AI can help you understand the context of a field prior to you reviewing work.
+
+✅ AI can mine metadata or summarize findings from published work.
+
+❌ AI should never be used to help you perform peer review on a paper. 
+
+- Copying and pasting text into a commercial tool is a violation of the privacy restrictions; papers in review are considered confidential and this process is supposed to be human-driven. AI-assisted review is basically never permitted by journals.
+
+## Resources
+
+See [this video on current policies](https://fredhutch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8eeb3bd0-ac16-4dba-858d-b38b016cff76) regarding AI use for publications and grant writing.
+
+Here are the associated slides: [Navigating AI ethics for scientific research](https://docs.google.com/presentation/d/15RmlGNAontco7VF4EdtQFeaOl_1QKc1TVMCb79vKKz0/edit?usp=sharing)
+
+## Attribution
+
+This policy draws from the following:
+
+- https://secureframe.com/blog/ai-policy
+- https://todd.gureckislab.org/2026/03/06/genaipolicy
+
+
+## Review
+
+This Policy is reviewed at [cadence] and as suggestions arise from community input.
