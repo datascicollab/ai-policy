@@ -7,23 +7,6 @@ bibliography: refs.bib
 csl: cell.csl
 ---
 
-```{=typst}
-// Make all links blue and underlined (classic web style)
-#show link: it => {
-  set text(fill: blue)
-  underline(it)
-}
-
-// Change the name from Bibliography to References
-#set bibliography(title: "References")
-
-// Spacing around headers
-#show heading.where(level: 2): set block(above: 1.5em)
-#show heading.where(level: 1): set block(above: 2.5em)
-
-
-```
-
 We must abide by all Hutch, NIH, and journal required policies. As a research group, we also share additional considerations and guidelines below. Please note that this policy will change as AI technology evolves and other regulations and policies that we must follow are updated. 
 
 ::: {.callout-note collapse="true" icon="false"}
@@ -294,6 +277,7 @@ _This is because many journals have policies against this. While other journals 
 
 ::: {.callout-important collapse="true" icon="false"}
 #### Don't
+
 ❌ AI should never be used to help you perform peer review on a paper.
 
 _Copying and pasting text into a commercial tool is a violation of the privacy restrictions; papers in review are considered confidential and this process is supposed to be human-driven. AI-assisted review is basically never permitted by journals._
