@@ -300,7 +300,7 @@ _Copying and pasting text into a commercial tool is a violation of the privacy r
 
 ### Permitted Tools
 
-Fred Hutch permits the use of generalist tools like Claude, Gemini, and ChatGPT provided they are not used to analyze protected access data [cite]. Perplexity is recommended by Fred Hutch for sensitive data [ cite]. While use of AI Agents is permitted, our lab group does not allow the use of these agents to push directly to public facing repositories like GitHub and Dockerhub. 
+Fred Hutch permits the use of generalist tools like Claude, Gemini, and ChatGPT provided they are not used to analyze protected access data [@fh_ai_use]. Perplexity is recommended by Fred Hutch for sensitive data [@fh_perplexity]. While use of AI Agents is permitted, our lab group does not allow the use of these agents to push directly to public facing repositories like GitHub and Dockerhub. 
 
 AI agents might make it more difficult to recognize security risks, policy violations, and your own loss of skills. We recommend using AI for specific tasks, rather than having AI Agents orchestrate your work.
 
