@@ -170,6 +170,8 @@ Please see this resource for more information: [CCCIF Preconference AI workshop]
 
 ✅ Use AI when: you need help troubleshooting when you are stuck, you have something tedious to do, or to check your work, rather than using AI to directly do your work.
 
+✅  Use specific tools where possible. When using AI, use a tool that is designed for the job. For example, for troubleshooting Docker workflows use [Gordon](https://docs.docker.com/ai/gordon/), rather than a general tool like ChatGPT. 
+
 ::: {.block fill="luma(240)" inset="12pt" radius="4pt" width="100%"}
 **Example**: reformatting text into a table. 
 
