@@ -164,9 +164,8 @@ Our lab policy falls under Fred Hutch policy, meaning that any concerns by the o
 
 ### Impacts on Society
 
-::: {.block fill='rgb("#f0f8ff")' inset="12pt" radius="4pt" width="100%"}
 Presentation: [CCCIF Preconference AI workshop: AI for Cancer Center Community Outreach and Engagement (COE)](https://docs.google.com/presentation/d/1SSAsaE_R_SJqafv3GZYfQDh40idFBVF4uCoBOgGnBtQ/edit?usp=sharing)
-:::
+
 
 - **Environmental cost**: 10 prompts to make an image, 3 attempts to make a video, and 15 general prompts may be equivalent to running the microwave for 3.5 hours or riding an electric bike for 100 miles. \[Source\]. We should be judicious about using AI when it is most helpful and attempt to use the best prompts initially. Using tools that we download locally can be much more energy efficient. Using tools with a high AI energy score can help encourage developers to use better practices. You can track usage with Offset AI.
 
@@ -180,14 +179,15 @@ Presentation: [CCCIF Preconference AI workshop: AI for Cancer Center Community O
 
 - **Social cost**: Models are fine-tuned on human feedback data, referred to as reinforcement learning from human feedback (RLHF). This includes examples of violence, sexual abuse, and hate speech categorized by human workers. From @Oliver2024, “OpenAI outsourced labor for this task to workers in Kenya, paying \<\$2 per hour for the identification of harmful text samples. Some workers were made physically ill by these images and descriptions of violence and abuse… outsourcing is a common practice for training AI models that need large sets of labeled data, presenting a social and ethical cost largely unseen by end users.”
 
-::: {.block fill='rgb("#f0f8ff")' inset="12pt" radius="4pt" width="100%"}
 - [AI's Hidden Workers](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6443000)
 - ['AI Is African Intelligence': The Workers Who Train AI Are Fighting Back](https://www.404media.co/ai-is-african-intelligence-the-workers-who-train-ai-are-fighting-back/)
-:::
 
 - Using AI for scientific writing can erode trust in the scientific enterprise.
 
-### Use in Our Lab: Research & General Practice
+### Research & General Practice
+
+::: {.callout-tip collapse="true" icon="false"}
+#### Do
 
 ✅ Track when you use AI and what you use it for (including the tool and version), as we will need to acknowledge that. See [this attribution toolkit](https://aiattribution.github.io/) for how to acknowledge usage. This includes usage for writing code, editing writing, or anything that might impact the reproduction or integrity of your research.
 
@@ -197,11 +197,13 @@ Presentation: [CCCIF Preconference AI workshop: AI for Cancer Center Community O
 
 ✅  Use specific tools where possible. When using AI, use a tool that is designed for the job. For example, for troubleshooting Docker workflows use [Gordon](https://docs.docker.com/ai/gordon/), rather than a general tool like ChatGPT. 
 
-::: {.block fill="luma(240)" inset="12pt" radius="4pt" width="100%"}
 **Example**: reformatting text into a table.
 
 See [this cheatsheet for information about everyday AI uses](https://www.ottrproject.org/cheatsheets/ai_everyday_uses.html).
 :::
+
+::: {.callout-important collapse="true" icon="false"}
+#### Don't
 
 ❌ Never paste private information into a commercial public AI tool, as this information will likely be kept by the tool developer and could be leaked to other users.
 
@@ -212,32 +214,45 @@ See [this cheatsheet for information about everyday AI uses](https://www.ottrpro
 ❌ Do not use tools that use your credentials (including GitHub) unless discussed with our group. This can lead to security vulnerabilities and ultimately loss of intellectual property, and is a violation of the current Hutch policy.
 
 ❌ Do not use new tools without getting approval from your PI
+:::
 
-### Use in Our Lab: Code
+### Code
+
+::: {.callout-tip collapse="true" icon="false"}
+#### Do
 
 ✅ AI can help you refactor, translate, understand, and document your code. See our [AI for Efficient Programming Course](https://github.com/fhdsl/AI_for_Efficient_Programming).
 
 ✅ You can use AI to help you write code from scratch, but you need to understand what the code is doing.
+:::
+
+::: {.callout-important collapse="true" icon="false"}
+#### Don't
 
 ❌ Do not share code without testing it. Be sure you can explain any inputs and outputs.
 
 ❌ Do not deploy any AI-generated code publicly (i.e., on GitHub) without thorough review.
+:::
 
-### Use in Our Lab: Grant Writing
+### Grant Writing
+
+::: {.callout-tip collapse="true" icon="false"}
+#### Do
 
 ✅ AI should be used for specific tasks rather than writing large sections of the proposal.
 
-::: {.block fill="luma(240)" inset="12pt" radius="4pt" width="100%"}
 **Example**: helping you understand what is required in the grant announcement, reworking text into a table or other format, understanding a new topic, improving a paragraph or sentence, or making text more concise. Check all references as AI can hallucinate references.
 
-Be aware that your ideas will no longer be private if you paste them into a public AI tool
+_Remember that commercial AI tools keep your inputs. Your content may be leaked to other users._
 :::
+
+::: {.callout-important collapse="true" icon="false"}
+#### Don't
 
 ❌ Do not submit sensitive intellectual property / ideas to a public AI tool.
 
 ❌ AI can help inspire idea generation, but should not be used to generate ideas.
 
-::: {.block fill="luma(240)" inset="12pt" radius="4pt" width="100%"}
 **Example**: asking about a particular topic or how two two topics relate to each other.
 
 NIH has policies against using AI for generating ideas.
@@ -285,7 +300,7 @@ _Copying and pasting text into a commercial tool is a violation of the privacy r
 
 ### Permitted Tools
 
-Fred Hutch permits the use of generalist tools like Claude, Gemini, and ChatGPT provided they are not used to analyze protected access data [cite]. Perplexity is recommended by Fred Hutch for sensitive data [ cite]. While use of AI Agents is permitted, our lab group does not allow the use of these agents to push directly to public facing repositories like GitHub and Dockerhub. 
+Fred Hutch permits the use of generalist tools like Claude, Gemini, and ChatGPT provided they are not used to analyze protected access data [@fh_ai_use]. Perplexity is recommended by Fred Hutch for sensitive data [@fh_perplexity]. While use of AI Agents is permitted, our lab group does not allow the use of these agents to push directly to public facing repositories like GitHub and Dockerhub. 
 
 AI agents might make it more difficult to recognize security risks, policy violations, and your own loss of skills. We recommend using AI for specific tasks, rather than having AI Agents orchestrate your work.
 
