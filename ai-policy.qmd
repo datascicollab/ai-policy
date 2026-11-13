@@ -1,10 +1,10 @@
 ---
 title: "Data Science Collaborative AI Policy"
 subtitle: "Version 1.0.2 - October 2026"
-format: typst
+format: html
 toc: true
-toc-depth: 3
 bibliography: refs.bib
+csl: cell.csl
 ---
 
 ```{=typst}
@@ -20,25 +20,53 @@ bibliography: refs.bib
 // Spacing around headers
 #show heading.where(level: 2): set block(above: 1.5em)
 #show heading.where(level: 1): set block(above: 2.5em)
+
+
 ```
 
-We must abide by all Hutch, NIH, and journal required policies. As a research group, we also share additional considerations and guidelines below. For this document, *AI* refers to generative large language models applied through chat interfaces, agents, plugins, and other contexts.
+We must abide by all Hutch, NIH, and journal required policies. As a research group, we also share additional considerations and guidelines below. Please note that this policy will change as AI technology evolves and other regulations and policies that we must follow are updated. 
 
-Please note that this policy will change as AI technology evolves and other regulations and policies that we must follow are updated. 
+::: {.callout-note collapse="true" icon="false"}
+## AI Definitions
+
+From [Fred Hutch Information Security](https://fredhutch-fhccinstitutional.policystat.com/policy/21605638/latest/#autoid-y47am):
+
+**Artificial Intelligence (AI)**: a machine-based system that can, for a given set of human-defined objectives, generate content, make predictions, recommendations, or decisions influencing real or virtual environments.  AI systems use machine- and human-based inputs to perceive real and virtual environments; abstract such perceptions into models through analysis in an automated manner; and use model inference to formulate options for information or action (15 U.S.C. 9401(3)). 
+
+**AI Agent**: A type of artificial intelligence that uses autonomous technology to perceive reason, and act toward defined objectives with limited or in some cases no human input, including executing multi-step tasks or workflows.  
+
+**AI System**: any data system, software, hardware, application, tool, or utility that operates in whole or in part using AI.  
+:::
+
 <!-- ############################# -->
 
 ## Fred Hutch AI Use Policy
 
-In general, under Fred Hutch policy, We prioritize scientific validity and reliability in our research, which includes a responsibility to continuously evaluate AI systems used in this context for their **validity, interpretability, and reliability**.
+Fred Hutch prioritizes responsible AI use that upholds scientific **validity, interpretability, and reliability** [@fh_responsible_use].
 
-::: {.block fill='rgb("#f0f8ff")' inset="12pt" radius="4pt" width="100%"}
-**Hutch AI Policy Links**
+**The following are NOT permitted under Hutch Policy:**
+
+- Unauthorized access to systems or data.
+
+- Password sharing or credential lending under any circumstances.
+
+- Attempting to bypass, interfere with, or disable security monitoring systems.
+
+- Engaging in activities that degrade system performance or undermine security controls.
+
+- Conducting outside employment, private consulting, commercial activities, or political campaigning using institutional resources.
+
+::: {.callout-note collapse="true" icon="false"}
+### Hutch AI Policy Links
+
+- [Use of Artificial Intelligence](https://fredhutch-fhccinstitutional.policystat.com/policy/21605638/latest/)
 
 - [Responsible Use of Artificial Intelligence (AI)](https://centernet.fredhutch.org/u/tda/ai.html)
 
 - [Using AI in Biomedical Research](https://sciwiki.fredhutch.org/datascience/ai_coding)
 :::
 
+::: {.callout-warning collapse="true" icon="false"}
 ### Fred Hutch Areas of Concern for AI Use
 
 To protect sensitive data and uphold ethical standards, certain practices are restricted:
@@ -54,19 +82,9 @@ To protect sensitive data and uphold ethical standards, certain practices are re
 - **Validate Everything**: Don’t rely on AI outputs without checking them through independent methods appropriate to your work.
 
 - **Respect Licensing**: Make sure you understand and follow the terms of use for any AI system.
+:::
 
-### More generally, the following are NOT permitted under Hutch Policy
-
-- Unauthorized access to systems or data.
-
-- Password sharing or credential lending under any circumstances.
-
-- Attempting to bypass, interfere with, or disable security monitoring systems.
-
-- Engaging in activities that degrade system performance or undermine security controls.
-
-- Conducting outside employment, private consulting, commercial activities, or political campaigning using institutional resources.
-
+::: {.callout-important collapse="true" icon="false"}
 ### Potential Consequences for Policy Violations
 
 - Inquiry and investigation from the Fred Hutch Research Integrity Officer (RIO)
@@ -74,6 +92,7 @@ To protect sensitive data and uphold ethical standards, certain practices are re
 - Actions including, but not limited to, a temporary suspension of research, additional monitoring of the research process and the handling of federal funds and equipment, reassignment of personnel or of the responsibility for the handling of federal funds and equipment, additional review of research data and results, delaying publication, or informing the research community or the public [@fh_rsch_misconduct].
 
 - Termination
+:::
 
 <!-- ############################# -->
 
@@ -81,12 +100,13 @@ To protect sensitive data and uphold ethical standards, certain practices are re
 
 Many of our grants are funded by NIH. It is therefore important that we adhere to their AI policies.
 
-::: {.block fill='rgb("#f0f8ff")' inset="12pt" radius="4pt" width="100%"}
-**NIH AI Policy Links**
+::: {.callout-note collapse="true" icon="false"}
+## NIH AI Policy Links
 
 - [Supporting Fairness and Originality in NIH Research Applications](https://grants.nih.gov/grants/guide/notice-files/NOT-OD-25-132.html)
 :::
 
+::: {.callout-warning collapse="true" icon="false"}
 ### NIH Areas of Concern for AI Use
 
 NIH will not consider applications to be original ideas of the applicant that are either:
@@ -94,7 +114,9 @@ NIH will not consider applications to be original ideas of the applicant that ar
 - Substantially developed by AI
 
 - Contain sections substantially developed by AI
+:::
 
+::: {.callout-important collapse="true" icon="false"}
 ### Potential Consequences for Policy Violations
 
 If the detection of AI is identified post award, NIH may refer the matter to the Office of Research Integrity to determine whether there is research misconduct while simultaneously taking [enforcement actions](https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200/subpart-D/subject-group-ECFR86b76dde0e1e9dc/section-200.339) including but not limited to:
@@ -106,6 +128,7 @@ If the detection of AI is identified post award, NIH may refer the matter to the
 - Wholly or in part suspending the grant
 
 - Possible termination
+:::
 
 <!-- ############################# -->
 
@@ -172,7 +195,12 @@ Presentation: [CCCIF Preconference AI workshop: AI for Cancer Center Community O
 
 - **Privacy cost**: Training data may also include user data that many users expect to have been kept private (such as email inboxes, or private GitHub repositories).
 
-- **Social cost**: Models are fine-tuned on human feedback data, referred to as reinforcement learning from human feedback (RLHF). This includes examples of violence, sexual abuse, and hate speech categorized by human workers. From @Oliver2024, “OpenAI outsourced labor for this task to workers in Kenya, paying \<\$2 per hour for the identification of harmful text samples. Some workers were made physically ill by these images and descriptions of violence and abuse… outsourcing is a common practice for training AI models that need large sets of labeled data, presenting a social and ethical cost largely unseen by end users.” \[[See also](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6443000); [See also](https://www.404media.co/ai-is-african-intelligence-the-workers-who-train-ai-are-fighting-back/)\].
+- **Social cost**: Models are fine-tuned on human feedback data, referred to as reinforcement learning from human feedback (RLHF). This includes examples of violence, sexual abuse, and hate speech categorized by human workers. From @Oliver2024, “OpenAI outsourced labor for this task to workers in Kenya, paying \<\$2 per hour for the identification of harmful text samples. Some workers were made physically ill by these images and descriptions of violence and abuse… outsourcing is a common practice for training AI models that need large sets of labeled data, presenting a social and ethical cost largely unseen by end users.”
+
+::: {.block fill='rgb("#f0f8ff")' inset="12pt" radius="4pt" width="100%"}
+- [AI's Hidden Workers](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6443000)
+- ['AI Is African Intelligence': The Workers Who Train AI Are Fighting Back](https://www.404media.co/ai-is-african-intelligence-the-workers-who-train-ai-are-fighting-back/)
+:::
 
 - Using AI for scientific writing can erode trust in the scientific enterprise.
 
@@ -232,29 +260,50 @@ Be aware that your ideas will no longer be private if you paste them into a publ
 NIH has policies against using AI for generating ideas.
 :::
 
-### Use in Our Lab: Manuscript Writing
+### Manuscript Writing
 
-✅ Most journals do allow AI for editing, however, check the journal’s policies ahead of time (that we plan to submit to)
+::: {.callout-tip collapse="true" icon="false"}
+#### Do
 
-- Be aware that if you copy paste your writing into a commercial AI tool, that content may be kept by the tool and possibly even leaked to other users
+✅ Use AI for copyediting (e.g., formatting, typos). Verify the journal's AI use policy before starting.
 
-- Again be careful to check all references suggested by AI - many models hallucinate fake or incorrect references
+✅ Disclose all use of AI in the acknowledgements. 
 
-- Check any facts or statistics from AI as well
+✅ Confirm all AI outputs (e.g., references, hyperlinks).
+
+_Remember that commercial AI tools keep your inputs. Your content may be leaked to other users._
+:::
+
+::: {.callout-important collapse="true" icon="false"}
+#### Don't
 
 ❌ AI should not be used for writing papers from scratch.
 
-- This is because many journals have policies against this. While other journals do not have these policies, it can be difficult to tell exactly where we might submit, as we may need to submit to several journals.
+_This is because many journals have policies against this. While other journals do not have these policies, it can be difficult to tell exactly where we might submit, as we may need to submit to several journals._
+:::
 
-### Use in Our Lab: Literature Review / Peer Review
+### Literature Review / Peer Review
+
+::: {.callout-tip collapse="true" icon="false"}
+#### Do
 
 ✅ AI can help you understand the context of a field prior to you reviewing work.
 
 ✅ AI can mine metadata or summarize findings from published work.
+:::
 
+::: {.callout-important collapse="true" icon="false"}
+#### Don't
 ❌ AI should never be used to help you perform peer review on a paper.
 
-- Copying and pasting text into a commercial tool is a violation of the privacy restrictions; papers in review are considered confidential and this process is supposed to be human-driven. AI-assisted review is basically never permitted by journals.
+_Copying and pasting text into a commercial tool is a violation of the privacy restrictions; papers in review are considered confidential and this process is supposed to be human-driven. AI-assisted review is basically never permitted by journals._
+:::
+
+### Permitted Tools
+
+Fred Hutch permits the use of generalist tools like Claude, Gemini, and ChatGPT provided they are not used to analyze protected access data [cite]. Perplexity is recommended by Fred Hutch for sensitive data [ cite]. While use of AI Agents is permitted, our lab group does not allow the use of these agents to push directly to public facing repositories like GitHub and Dockerhub. 
+
+AI agents might make it more difficult to recognize security risks, policy violations, and your own loss of skills. We recommend using AI for specific tasks, rather than having AI Agents orchestrate your work.
 
 ## Resources
 
