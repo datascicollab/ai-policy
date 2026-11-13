@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.25">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Data Science Collaborative AI Policy</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="ai-policy_files/libs/clipboard/clipboard.min.js"></script>
+<script src="ai-policy_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="ai-policy_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="ai-policy_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="ai-policy_files/libs/quarto-html/popper.min.js"></script>
+<script src="ai-policy_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="ai-policy_files/libs/quarto-html/anchor.min.js"></script>
+<link href="ai-policy_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="ai-policy_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="ai-policy_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="ai-policy_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="ai-policy_files/libs/bootstrap/bootstrap-d6a003b94517c951b2d65075d42fb01b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="quarto-light">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+<div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+  <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#fred-hutch-ai-use-policy" id="toc-fred-hutch-ai-use-policy" class="nav-link active" data-scroll-target="#fred-hutch-ai-use-policy">Fred Hutch AI Use Policy</a></li>
+  <li><a href="#nih-policy" id="toc-nih-policy" class="nav-link" data-scroll-target="#nih-policy">NIH Policy</a></li>
+  <li><a href="#lab-ai-use-policy" id="toc-lab-ai-use-policy" class="nav-link" data-scroll-target="#lab-ai-use-policy">Lab AI Use Policy</a>
+  <ul class="collapse">
+  <li><a href="#impacts-on-you" id="toc-impacts-on-you" class="nav-link" data-scroll-target="#impacts-on-you">Impacts on You</a></li>
+  <li><a href="#impacts-on-your-colleagues-and-our-lab" id="toc-impacts-on-your-colleagues-and-our-lab" class="nav-link" data-scroll-target="#impacts-on-your-colleagues-and-our-lab">Impacts on Your Colleagues and Our Lab</a></li>
+  <li><a href="#impacts-on-society" id="toc-impacts-on-society" class="nav-link" data-scroll-target="#impacts-on-society">Impacts on Society</a></li>
+  <li><a href="#use-in-our-lab-research-general-practice" id="toc-use-in-our-lab-research-general-practice" class="nav-link" data-scroll-target="#use-in-our-lab-research-general-practice">Use in Our Lab: Research &amp; General Practice</a></li>
+  <li><a href="#use-in-our-lab-code" id="toc-use-in-our-lab-code" class="nav-link" data-scroll-target="#use-in-our-lab-code">Use in Our Lab: Code</a></li>
+  <li><a href="#use-in-our-lab-grant-writing" id="toc-use-in-our-lab-grant-writing" class="nav-link" data-scroll-target="#use-in-our-lab-grant-writing">Use in Our Lab: Grant Writing</a></li>
+  <li><a href="#manuscript-writing" id="toc-manuscript-writing" class="nav-link" data-scroll-target="#manuscript-writing">Manuscript Writing</a></li>
+  <li><a href="#literature-review-peer-review" id="toc-literature-review-peer-review" class="nav-link" data-scroll-target="#literature-review-peer-review">Literature Review / Peer Review</a></li>
+  <li><a href="#permitted-tools" id="toc-permitted-tools" class="nav-link" data-scroll-target="#permitted-tools">Permitted Tools</a></li>
+  </ul></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  <li><a href="#attribution" id="toc-attribution" class="nav-link" data-scroll-target="#attribution">Attribution</a></li>
+  <li><a href="#review" id="toc-review" class="nav-link" data-scroll-target="#review">Review</a></li>
+  </ul>
+</nav>
+</div>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Data Science Collaborative AI Policy</h1>
+<p class="subtitle lead">Version 1.0.2 - October 2026</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>We must abide by all Hutch, NIH, and journal required policies. As a research group, we also share additional considerations and guidelines below. Please note that this policy will change as AI technology evolves and other regulations and policies that we must follow are updated.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>AI Definitions
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>From <a href="https://fredhutch-fhccinstitutional.policystat.com/policy/21605638/latest/#autoid-y47am">Fred Hutch Information Security</a>:</p>
+<p><strong>Artificial Intelligence (AI)</strong>: a machine-based system that can, for a given set of human-defined objectives, generate content, make predictions, recommendations, or decisions influencing real or virtual environments. AI systems use machine- and human-based inputs to perceive real and virtual environments; abstract such perceptions into models through analysis in an automated manner; and use model inference to formulate options for information or action (15 U.S.C. 9401(3)).</p>
+<p><strong>AI Agent</strong>: A type of artificial intelligence that uses autonomous technology to perceive reason, and act toward defined objectives with limited or in some cases no human input, including executing multi-step tasks or workflows.</p>
+<p><strong>AI System</strong>: any data system, software, hardware, application, tool, or utility that operates in whole or in part using AI.</p>
+</div>
+</div>
+</div>
+<!-- ############################# -->
+<section id="fred-hutch-ai-use-policy" class="level2">
+<h2 class="anchored" data-anchor-id="fred-hutch-ai-use-policy">Fred Hutch AI Use Policy</h2>
+<p>Fred Hutch prioritizes responsible AI use that upholds scientific <strong>validity, interpretability, and reliability</strong><span class="citation" data-cites="fh_responsible_use"><sup><a href="#ref-fh_responsible_use" role="doc-biblioref">1</a></sup></span>.</p>
+<p><strong>The following are NOT permitted under Hutch Policy:</strong></p>
+<ul>
+<li><p>Unauthorized access to systems or data.</p></li>
+<li><p>Password sharing or credential lending under any circumstances.</p></li>
+<li><p>Attempting to bypass, interfere with, or disable security monitoring systems.</p></li>
+<li><p>Engaging in activities that degrade system performance or undermine security controls.</p></li>
+<li><p>Conducting outside employment, private consulting, commercial activities, or political campaigning using institutional resources.</p></li>
+</ul>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Hutch AI Policy Links
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><p><a href="https://fredhutch-fhccinstitutional.policystat.com/policy/21605638/latest/">Use of Artificial Intelligence</a></p></li>
+<li><p><a href="https://centernet.fredhutch.org/u/tda/ai.html">Responsible Use of Artificial Intelligence (AI)</a></p></li>
+<li><p><a href="https://sciwiki.fredhutch.org/datascience/ai_coding">Using AI in Biomedical Research</a></p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>Fred Hutch Areas of Concern for AI Use
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>To protect sensitive data and uphold ethical standards, certain practices are restricted:</p>
+<ul>
+<li><p><strong>No Sensitive Data in AI Systems</strong>: Never input internal, protected or restricted Use data into consumer generative AI systems (e.g., ChatGPT) unless you’ve completed an AI Risk Review (AIR) and use has been deemed Low Risk. This includes patient data shared with UW Medicine.</p></li>
+<li><p><strong>Don’t Automate Human Judgment</strong>: Avoid using AI to replace human decision-making or analysis workflows.</p></li>
+<li><p><strong>Protect your Inventions</strong>: In addition to posing a potential public disclosure risk to Fred Hutch inventions, AI use in the development of new inventions may complicate matters involving inventorship and IP ownership.</p></li>
+<li><p><strong>No Clinical Use Without Review</strong>: No actions should ever be taken related to clinical care decisions based on the output of an unvalidated AI system.</p></li>
+<li><p><strong>Validate Everything</strong>: Don’t rely on AI outputs without checking them through independent methods appropriate to your work.</p></li>
+<li><p><strong>Respect Licensing</strong>: Make sure you understand and follow the terms of use for any AI system.</p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-important no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Potential Consequences for Policy Violations
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><p>Inquiry and investigation from the Fred Hutch Research Integrity Officer (RIO)</p></li>
+<li><p>Actions including, but not limited to, a temporary suspension of research, additional monitoring of the research process and the handling of federal funds and equipment, reassignment of personnel or of the responsibility for the handling of federal funds and equipment, additional review of research data and results, delaying publication, or informing the research community or the public<span class="citation" data-cites="fh_rsch_misconduct"><sup><a href="#ref-fh_rsch_misconduct" role="doc-biblioref">2</a></sup></span>.</p></li>
+<li><p>Termination</p></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- ############################# -->
+</section>
+<section id="nih-policy" class="level2">
+<h2 class="anchored" data-anchor-id="nih-policy">NIH Policy</h2>
+<p>Many of our grants are funded by NIH. It is therefore important that we adhere to their AI policies.</p>
+<div class="callout callout-style-default callout-note no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>NIH AI Policy Links
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<ul>
+<li><a href="https://grants.nih.gov/grants/guide/notice-files/NOT-OD-25-132.html">Supporting Fairness and Originality in NIH Research Applications</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Warning</span>NIH Areas of Concern for AI Use
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>NIH will not consider applications to be original ideas of the applicant that are either:</p>
+<ul>
+<li><p>Substantially developed by AI</p></li>
+<li><p>Contain sections substantially developed by AI</p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-important no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Potential Consequences for Policy Violations
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>If the detection of AI is identified post award, NIH may refer the matter to the Office of Research Integrity to determine whether there is research misconduct while simultaneously taking <a href="https://www.ecfr.gov/current/title-2/subtitle-A/chapter-II/part-200/subpart-D/subject-group-ECFR86b76dde0e1e9dc/section-200.339">enforcement actions</a> including but not limited to:</p>
+<ul>
+<li><p>Disallowing costs</p></li>
+<li><p>Withholding future awards</p></li>
+<li><p>Wholly or in part suspending the grant</p></li>
+<li><p>Possible termination</p></li>
+</ul>
+</div>
+</div>
+</div>
+<!-- ############################# -->
+</section>
+<section id="lab-ai-use-policy" class="level2">
+<h2 class="anchored" data-anchor-id="lab-ai-use-policy">Lab AI Use Policy</h2>
+<p>Our lab policy falls under Fred Hutch policy, meaning that any concerns by the organization as a whole propagate to our lab group. We share here additional guidelines that align with our mission of making data science reproducible, transparent, and accessible to the broadest audience of learners. We ask you to consider <em>impacts on yourself, impacts on your colleagues, and impacts on society</em> when choosing to use AI.</p>
+<section id="impacts-on-you" class="level3">
+<h3 class="anchored" data-anchor-id="impacts-on-you">Impacts on You</h3>
+<ul>
+<li><p>Reliance on AI use can inhibit skilling - it can cause de-skilling, never-skilling, or miss-skilling. Consider that some skills, such as problem solving and critical thinking, are poorly defined and may atrophy without you realizing it. You may not know which skills will be important to you in the future.</p>
+<ul>
+<li>As an analogy, we might feel okay about outsourcing arithmetic to a calculator since it’s much faster, but it might mean we get worse at mental math. We should consider the tradeoffs of all skills outsourced to AI tools.</li>
+</ul></li>
+<li><p>Under NIH policies, PIs are required to mentor trainees in responsible research practices. Using AI might limit the opportunity for authentic, teachable experiences that build mentor and mentee relationships.</p></li>
+<li><p>You lose ownership over ideas that are submitted in text form to online chat platforms.</p></li>
+</ul>
+</section>
+<section id="impacts-on-your-colleagues-and-our-lab" class="level3">
+<h3 class="anchored" data-anchor-id="impacts-on-your-colleagues-and-our-lab">Impacts on Your Colleagues and Our Lab</h3>
+<ul>
+<li><p>AI tools can currently pose extra security risks, particularly if given access to passwords and other credentials. Do not give tools access to your profiles on platforms like GitHub where we store much of our work. This puts our work at risk. Multiple instances of security issues with AI have happened or been suggested, including:</p>
+<ul>
+<li>https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html?m=1</li>
+<li>https://www.pointguardai.com/ai-security-incidents/hidden-repo-instructions-turn-chatgpt-github-connector-into-secret-thief</li>
+<li>https://www.fortra.com/blog/ai-companies-accidentally-leak-passwords-digital-keys-github</li>
+</ul></li>
+<li><p>Using AI in collaborative work can sometimes create more work for your colleagues, leading to inappropriate offloading of tasks</p>
+<ul>
+<li>Examples (ie code review)</li>
+</ul></li>
+<li><p>Use of AI can slow our progress and capacity for collaboration by:</p>
+<ul>
+<li><p>Creating a lack of awareness for the source of our information</p></li>
+<li><p>Obscuring how decisions were made</p></li>
+<li><p>Can increase tech debt in terms of understanding how our tools work</p></li>
+</ul></li>
+<li><p>Our group relies on credibility to create trusted resources:</p>
+<ul>
+<li><p>We must be good examples of the practices we preach</p></li>
+<li><p>We must always be transparent about AI usage</p></li>
+<li><p>The public tends to appreciate and trust human-driven authentic work over AI-derived work, therefore our work should be more human-driven especially when it comes to writing guidance about best practices for research</p></li>
+<li><p>We must check everything that we create with AI to ensure that it is correct and up-to-date with best practices</p></li>
+</ul></li>
+<li><p>Submitting your colleagues’ ideas to AI databases without their permission could be considered intellectual theft. Always check with them first.</p></li>
+</ul>
+</section>
+<section id="impacts-on-society" class="level3">
+<h3 class="anchored" data-anchor-id="impacts-on-society">Impacts on Society</h3>
+<div class="block" data-fill="rgb(&quot;#f0f8ff&quot;)" data-inset="12pt" data-radius="4pt" width="100%">
+<p>Presentation: <a href="https://docs.google.com/presentation/d/1SSAsaE_R_SJqafv3GZYfQDh40idFBVF4uCoBOgGnBtQ/edit?usp=sharing">CCCIF Preconference AI workshop: AI for Cancer Center Community Outreach and Engagement (COE)</a></p>
+</div>
+<ul>
+<li><p><strong>Environmental cost</strong>: 10 prompts to make an image, 3 attempts to make a video, and 15 general prompts may be equivalent to running the microwave for 3.5 hours or riding an electric bike for 100 miles. [Source]. We should be judicious about using AI when it is most helpful and attempt to use the best prompts initially. Using tools that we download locally can be much more energy efficient. Using tools with a high AI energy score can help encourage developers to use better practices. You can track usage with Offset AI.</p></li>
+<li><p><strong>Inherent bias</strong>: Our tools are inherently biased because the training material for most tools was essentially the internet - consider output with this lens and include requests for consideration of bias in your prompts.</p></li>
+<li><p><strong>Transparency</strong>: using tools with a high transparency index helps push developers to be more transparent.</p></li>
+<li><p><strong>Impact on intellectual and artistic works</strong>: LLMs are trained using data (e.g., paywalled articles, copyrighted art) and rarely credit the original author<span class="citation" data-cites="is_ai_theft"><sup><a href="#ref-is_ai_theft" role="doc-biblioref">3</a></sup></span>. Former freelance artistic tasks may be outsourced to AI, limiting the creative workforce.</p></li>
+<li><p><strong>Privacy cost</strong>: Training data may also include user data that many users expect to have been kept private (such as email inboxes, or private GitHub repositories).</p></li>
+<li><p><strong>Social cost</strong>: Models are fine-tuned on human feedback data, referred to as reinforcement learning from human feedback (RLHF). This includes examples of violence, sexual abuse, and hate speech categorized by human workers. From<span class="citation" data-cites="Oliver2024"><sup><a href="#ref-Oliver2024" role="doc-biblioref">4</a></sup></span>, “OpenAI outsourced labor for this task to workers in Kenya, paying &lt;$2 per hour for the identification of harmful text samples. Some workers were made physically ill by these images and descriptions of violence and abuse… outsourcing is a common practice for training AI models that need large sets of labeled data, presenting a social and ethical cost largely unseen by end users.”</p></li>
+</ul>
+<div class="block" data-fill="rgb(&quot;#f0f8ff&quot;)" data-inset="12pt" data-radius="4pt" width="100%">
+<ul>
+<li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6443000">AI’s Hidden Workers</a></li>
+<li><a href="https://www.404media.co/ai-is-african-intelligence-the-workers-who-train-ai-are-fighting-back/">‘AI Is African Intelligence’: The Workers Who Train AI Are Fighting Back</a></li>
+</ul>
+</div>
+<ul>
+<li>Using AI for scientific writing can erode trust in the scientific enterprise.</li>
+</ul>
+</section>
+<section id="use-in-our-lab-research-general-practice" class="level3">
+<h3 class="anchored" data-anchor-id="use-in-our-lab-research-general-practice">Use in Our Lab: Research &amp; General Practice</h3>
+<p>✅ Track when you use AI and what you use it for (including the tool and version), as we will need to acknowledge that. See <a href="https://aiattribution.github.io/">this attribution toolkit</a> for how to acknowledge usage. This includes usage for writing code, editing writing, or anything that might impact the reproduction or integrity of your research.</p>
+<p>✅ Always check any citations, code, text, or facts given to you from AI.</p>
+<p>✅ Use AI when: you need help troubleshooting when you are stuck, you have something tedious to do, or to check your work, rather than using AI to directly do your work.</p>
+<p>✅ Use specific tools where possible. When using AI, use a tool that is designed for the job. For example, for troubleshooting Docker workflows use <a href="https://docs.docker.com/ai/gordon/">Gordon</a>, rather than a general tool like ChatGPT.</p>
+<div class="block" data-fill="luma(240)" data-inset="12pt" data-radius="4pt" width="100%">
+<p><strong>Example</strong>: reformatting text into a table.</p>
+<p>See <a href="https://www.ottrproject.org/cheatsheets/ai_everyday_uses.html">this cheatsheet for information about everyday AI uses</a>.</p>
+</div>
+<p>❌ Never paste private information into a commercial public AI tool, as this information will likely be kept by the tool developer and could be leaked to other users.</p>
+<p>❌ Do not use code, references, writing, etc. produced by AI without checking it.</p>
+<p>❌ Do not use AI to do tasks themselves, but rather help you with code to do a task. For example, don’t use AI to directly alter a file, rather write code that can help you reproducibly alter a file.</p>
+<p>❌ Do not use tools that use your credentials (including GitHub) unless discussed with our group. This can lead to security vulnerabilities and ultimately loss of intellectual property, and is a violation of the current Hutch policy.</p>
+<p>❌ Do not use new tools without getting approval from your PI</p>
+</section>
+<section id="use-in-our-lab-code" class="level3">
+<h3 class="anchored" data-anchor-id="use-in-our-lab-code">Use in Our Lab: Code</h3>
+<p>✅ AI can help you refactor, translate, understand, and document your code. See our <a href="https://github.com/fhdsl/AI_for_Efficient_Programming">AI for Efficient Programming Course</a>.</p>
+<p>✅ You can use AI to help you write code from scratch, but you need to understand what the code is doing.</p>
+<p>❌ Do not share code without testing it. Be sure you can explain any inputs and outputs.</p>
+<p>❌ Do not deploy any AI-generated code publicly (i.e., on GitHub) without thorough review.</p>
+</section>
+<section id="use-in-our-lab-grant-writing" class="level3">
+<h3 class="anchored" data-anchor-id="use-in-our-lab-grant-writing">Use in Our Lab: Grant Writing</h3>
+<p>✅ AI should be used for specific tasks rather than writing large sections of the proposal.</p>
+<div class="block" data-fill="luma(240)" data-inset="12pt" data-radius="4pt" width="100%">
+<p><strong>Example</strong>: helping you understand what is required in the grant announcement, reworking text into a table or other format, understanding a new topic, improving a paragraph or sentence, or making text more concise. Check all references as AI can hallucinate references.</p>
+<p>Be aware that your ideas will no longer be private if you paste them into a public AI tool</p>
+</div>
+<p>❌ Do not submit sensitive intellectual property / ideas to a public AI tool.</p>
+<p>❌ AI can help inspire idea generation, but should not be used to generate ideas.</p>
+<div class="block" data-fill="luma(240)" data-inset="12pt" data-radius="4pt" width="100%">
+<p><strong>Example</strong>: asking about a particular topic or how two two topics relate to each other.</p>
+<p>NIH has policies against using AI for generating ideas.</p>
+</div>
+</section>
+<section id="manuscript-writing" class="level3">
+<h3 class="anchored" data-anchor-id="manuscript-writing">Manuscript Writing</h3>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Do
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>✅ Use AI for copyediting (e.g., formatting, typos). Verify the journal’s AI use policy before starting.</p>
+<p>✅ Disclose all use of AI in the acknowledgements.</p>
+<p>✅ Confirm all AI outputs (e.g., references, hyperlinks).</p>
+<p><em>Remember that commercial AI tools keep your inputs. Your content may be leaked to other users.</em></p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-important no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Don’t
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>❌ AI should not be used for writing papers from scratch.</p>
+<p><em>This is because many journals have policies against this. While other journals do not have these policies, it can be difficult to tell exactly where we might submit, as we may need to submit to several journals.</em></p>
+</div>
+</div>
+</div>
+</section>
+<section id="literature-review-peer-review" class="level3">
+<h3 class="anchored" data-anchor-id="literature-review-peer-review">Literature Review / Peer Review</h3>
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Do
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>✅ AI can help you understand the context of a field prior to you reviewing work.</p>
+<p>✅ AI can mine metadata or summarize findings from published work.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-important no-icon callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Important</span>Don’t
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>❌ AI should never be used to help you perform peer review on a paper.</p>
+<p><em>Copying and pasting text into a commercial tool is a violation of the privacy restrictions; papers in review are considered confidential and this process is supposed to be human-driven. AI-assisted review is basically never permitted by journals.</em></p>
+</div>
+</div>
+</div>
+</section>
+<section id="permitted-tools" class="level3">
+<h3 class="anchored" data-anchor-id="permitted-tools">Permitted Tools</h3>
+<p>Fred Hutch permits the use of generalist tools like Claude, Gemini, and ChatGPT provided they are not used to analyze protected access data [cite]. Perplexity is recommended by Fred Hutch for sensitive data [ cite]. While use of AI Agents is permitted, our lab group does not allow the use of these agents to push directly to public facing repositories like GitHub and Dockerhub.</p>
+<p>AI agents might make it more difficult to recognize security risks, policy violations, and your own loss of skills. We recommend using AI for specific tasks, rather than having AI Agents orchestrate your work.</p>
+</section>
+</section>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<p>See <a href="https://fredhutch.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8eeb3bd0-ac16-4dba-858d-b38b016cff76">this video on current policies</a> regarding AI use for publications and grant writing.</p>
+<p>Here are the associated slides: <a href="https://docs.google.com/presentation/d/15RmlGNAontco7VF4EdtQFeaOl_1QKc1TVMCb79vKKz0/edit?usp=sharing">Navigating AI ethics for scientific research</a></p>
+</section>
+<section id="attribution" class="level2">
+<h2 class="anchored" data-anchor-id="attribution">Attribution</h2>
+<p>This policy draws from the following:</p>
+<ul>
+<li>https://secureframe.com/blog/ai-policy</li>
+<li>https://todd.gureckislab.org/2026/03/06/genaipolicy</li>
+</ul>
+</section>
+<section id="review" class="level2">
+<h2 class="anchored" data-anchor-id="review">Review</h2>
+<p>This Policy is reviewed at [cadence] and as suggestions arise from community input.</p>
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body" role="list">
+<div id="ref-fh_responsible_use" class="csl-entry" role="listitem">
+<div class="csl-left-margin">1. </div><div class="csl-right-inline">Fred Hutch Translational Data Accelerator (TDA) (2026). <a href="https://centernet.fredhutch.org/u/tda/ai.html">Responsible use of artificial intelligence (AI)</a>.</div>
+</div>
+<div id="ref-fh_rsch_misconduct" class="csl-entry" role="listitem">
+<div class="csl-left-margin">2. </div><div class="csl-right-inline">Fred Hutch Cancer Center Research Compliance Research Center (2026). <a href="https://fredhutch-fhccresearchcenter.policystat.com/policy/19563215/latest">Research misconduct</a>.</div>
+</div>
+<div id="ref-is_ai_theft" class="csl-entry" role="listitem">
+<div class="csl-left-margin">3. </div><div class="csl-right-inline">Duke Center for Teaching and Learning (2026). <a href="https://ctl.duke.edu/ai-ethics-learning-toolkit/is-ai-theft/">AI ethics learning toolkit: Is AI theft? Exploring copyright and intellectual property</a>.</div>
+</div>
+<div id="ref-Oliver2024" class="csl-entry" role="listitem">
+<div class="csl-left-margin">4. </div><div class="csl-right-inline">Oliver, R.Y., Chapman, M., Emery, N., Gillespie, L., Gownaris, N., Leiker, S., Nisi, A.C., Ayers, D., Breckheimer, I., Blondin, H., et al. (2024). Opening a conversation on responsible environmental data science in the age of large language models. Environmental Data Science <em>3</em>, e14. <a href="https://doi.org/10.1017/eds.2024.12">https://doi.org/10.1017/eds.2024.12</a>.</div>
+</div>
+</div></section></div></main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
