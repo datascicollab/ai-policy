@@ -241,7 +241,11 @@ Here are the associated slides: [Navigating AI ethics for scientific research](h
 
 ## Attribution
 
-This policy draws from [SOURCES].
+This policy draws from the following:
+
+- https://secureframe.com/blog/ai-policy
+- https://todd.gureckislab.org/2026/03/06/genaipolicy
+
 
 ## Review
 
