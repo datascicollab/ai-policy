@@ -24,6 +24,7 @@ bibliography: refs.bib
 
 We must abide by all Hutch, NIH, and journal required policies. As a research group, we also share additional considerations and guidelines below. For this document, *AI* refers to generative large language models applied through chat interfaces, agents, plugins, and other contexts.
 
+Please note that this policy will change as AI technology evolves and other regulations and policies that we must follow are updated. 
 <!-- ############################# -->
 
 ## Fred Hutch AI Use Policy
@@ -124,6 +125,13 @@ Our lab policy falls under Fred Hutch policy, meaning that any concerns by the o
 
 ### Impacts on Your Colleagues and Our Lab
 
+- AI tools can currently pose extra security risks, particularly if given access to passwords and other credentials. Do not give tools access to your profiles on platforms like GitHub where we store much of our work. This puts our work at risk. Multiple instances of security issues with AI have happened or been suggested, including:
+
+    - https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html?m=1
+    - https://www.pointguardai.com/ai-security-incidents/hidden-repo-instructions-turn-chatgpt-github-connector-into-secret-thief
+    - https://www.fortra.com/blog/ai-companies-accidentally-leak-passwords-digital-keys-github
+    
+    
 - Using AI in collaborative work can sometimes create more work for your colleagues, leading to inappropriate offloading of tasks
 
   - Examples (ie code review)
@@ -175,6 +183,8 @@ Presentation: [CCCIF Preconference AI workshop: AI for Cancer Center Community O
 ✅ Always check any citations, code, text, or facts given to you from AI.
 
 ✅ Use AI when: you need help troubleshooting when you are stuck, you have something tedious to do, or to check your work, rather than using AI to directly do your work.
+
+✅  Use specific tools where possible. When using AI, use a tool that is designed for the job. For example, for troubleshooting Docker workflows use [Gordon](https://docs.docker.com/ai/gordon/), rather than a general tool like ChatGPT. 
 
 ::: {.block fill="luma(240)" inset="12pt" radius="4pt" width="100%"}
 **Example**: reformatting text into a table.
@@ -254,7 +264,10 @@ Here are the associated slides: [Navigating AI ethics for scientific research](h
 
 ## Attribution
 
-This policy draws from \[SOURCES\].
+This policy draws from the following:
+
+- https://secureframe.com/blog/ai-policy
+- https://todd.gureckislab.org/2026/03/06/genaipolicy
 
 ## Review
 
