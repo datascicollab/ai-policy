@@ -265,7 +265,8 @@ NIH has policies against using AI for generating ideas.
 
 ✅ Use AI for copyediting (e.g., formatting, typos). Verify the journal's AI use policy before starting.
 
-✅ Disclose all use of AI in the acknowledgements. 
+✅ Disclose all use of AI ias
+required by the journal.
 
 ✅ Confirm all AI outputs (e.g., references, hyperlinks).
 
