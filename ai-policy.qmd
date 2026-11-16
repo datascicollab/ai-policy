@@ -253,7 +253,6 @@ _Remember that commercial AI tools keep your inputs. Your content may be leaked 
 
 ❌ AI can help inspire idea generation, but should not be used to generate ideas.
 
-**Example**: asking about a particular topic or how two two topics relate to each other.
 
 NIH has policies against using AI for generating ideas.
 :::
