@@ -199,6 +199,8 @@ Presentation: [CCCIF Preconference AI workshop: AI for Cancer Center Community O
 
 ✅ Always check any citations, code, and/or text output by AI.
 
+✅ Always rerun code outside of any AI tools to ensure that it is reproducible. 
+
 ✅ Use specific tools. For example, [Gordon](https://docs.docker.com/ai/gordon/) could be used for troubleshooting Docker workflows, rather than a general tool like ChatGPT.
 
 ✅ Use AI for specific and discrete tasks, rather than using AI to directly do your work.
