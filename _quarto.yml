@@ -4,6 +4,12 @@ project:
   
 website:
   title: "AI Policy"
+  page-footer:
+    center: |
+      <p style="text-align:center;"> <img src="assets/ai_attribution.svg" width="20%"/> <small> This work was entirely human-created, without the use of AI. </small></p>
+      <p style="text-align:center;"> <small> This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NonCommercial-ShareAlike 4.0 International License</a>. </small></p>
+      <br>
+
 format:
   html:
     theme: cosmo
@@ -11,3 +17,4 @@ format:
       - assets/style_config_default.css
       - assets/style.css
     toc: true
+

@@ -121,13 +121,19 @@ Our lab policy falls under Fred Hutch policy, meaning that any concerns by the o
 
 ### Impacts on You
 
-- Reliance on AI use can inhibit skilling - it can cause de-skilling, never-skilling, or miss-skilling. Consider that some skills, such as problem solving and critical thinking, are poorly defined and may atrophy without you realizing it. You may not know which skills will be important to you in the future.
+AI can save time and increase productivity, but is linked to skill loss and reduced scientific collaboration.
 
-  - As an analogy, we might feel okay about outsourcing arithmetic to a calculator since it’s much faster, but it might mean we get worse at mental math. We should consider the tradeoffs of all skills outsourced to AI tools.
+::: {.callout-note collapse="true" icon="false"}
+### Learn More
 
-- Under NIH policies, PIs are required to mentor trainees in responsible research practices. Using AI might limit the opportunity for authentic, teachable experiences that build mentor and mentee relationships.
+- Using AI can save time, but is linked to loss of skills [@heudel2026;@gestiardi2026;@budzyn2025;@shen2026;@liu2026]. Consider that some skills, such as problem solving and critical thinking, are poorly defined and may atrophy without you realizing it. You may not know which skills will be important to you in the future.
+
+- Using AI may lead to greater numbers of publications, however research shows that this may be shrinking the scope of research topics as well as interdisciplinary collaboration by up to 22% [@hao2026].
+
+- Using AI might limit the opportunity for hands-on learning between you and your mentors/mentees.
 
 - You lose ownership over ideas that are submitted in text form to online chat platforms.
+:::
 
 ### Impacts on Your Colleagues and Our Lab
 
