@@ -196,6 +196,7 @@ Presentation: [CCCIF Preconference AI workshop: AI for Cancer Center Community O
 ✅ Use specific tools. For example, [Gordon](https://docs.docker.com/ai/gordon/) could be used for troubleshooting Docker workflows, rather than a general tool like ChatGPT.
 
 ✅ Use AI for specific and discrete tasks, rather than using AI to directly do your work.
+
 ✅ To stay better informed and involved with AI suggestions, work with small pieces of code or text at a time.
 
 **Examples**: reformatting text into a table, troubleshooting when you are stuck, checking or proofreading your work.
