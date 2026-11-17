@@ -137,16 +137,14 @@ AI can save time and increase productivity, but is linked to skill loss and redu
 
 ### Impacts on Your Colleagues and Our Lab
 
-- AI tools can currently pose extra security risks, particularly if given access to passwords and other credentials. Do not give tools access to your profiles on platforms like GitHub where we store much of our work. This puts our work at risk. Multiple instances of security issues with AI have happened or been suggested, including:
+AI use can pose extra security risks, decrease collaboration and understanding, and impact the credibility of our lab's products.
 
-    - https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html?m=1
-    - https://www.pointguardai.com/ai-security-incidents/hidden-repo-instructions-turn-chatgpt-github-connector-into-secret-thief
-    - https://www.fortra.com/blog/ai-companies-accidentally-leak-passwords-digital-keys-github
-    
-    
-- Using AI in collaborative work can sometimes create more work for your colleagues, leading to inappropriate offloading of tasks
+::: {.callout-note collapse="true" icon="false"}
+### Learn More
 
-  - Examples (ie code review)
+- AI tools pose extra security risks, particularly if given access to passwords and other credentials [@cluley2025;@Khandelwal2026;@pointguardai2026]. Much of our work is hosted on GitHub; granting AI access to your GitHub account could put our work at risk.
+    
+- Using AI can inhibit and/or collaboration through resource debt. From Storey 2026, _"Technical debt refers to problems in the code layer; cognitive debt refers to erosion of shared understanding across a team over time; and intent debt refers to a lack of externalized goals, constraints, and rationale that both humans and AI systems need to work safely and efficiently with the codebase."_ [@storey2026]. This could include introducing bugs, obscuring decision making, removing context, and creating more work for your colleagues [@Baolin2026;@storey2026]. For example, a verbose pull request can add unnecessary code and create extra work for the reviewer.
 
 - Use of AI can slow our progress and capacity for collaboration by:
 
@@ -167,6 +165,7 @@ AI can save time and increase productivity, but is linked to skill loss and redu
   - We must check everything that we create with AI to ensure that it is correct and up-to-date with best practices
 
 - Submitting your colleagues’ ideas to AI databases without their permission could be considered intellectual theft. Always check with them first.
+:::
 
 ### Impacts on Society
 
