@@ -320,6 +320,7 @@ This policy draws from the following:
 
 - https://secureframe.com/blog/ai-policy
 - https://todd.gureckislab.org/2026/03/06/genaipolicy
+- https://www.igorlabapp.com/post/lab-ai-use-policy
 
 ## Review
 
