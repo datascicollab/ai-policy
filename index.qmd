@@ -191,7 +191,9 @@ Presentation: [CCCIF Preconference AI workshop: AI for Cancer Center Community O
 
 ✅ Track when you use AI and what you use it for (including the tool and version), as we will need to acknowledge that. See [this attribution toolkit](https://aiattribution.github.io/) for how to acknowledge usage. This includes usage for writing code, editing writing, or anything that might impact the reproduction or integrity of your research.
 
-✅ Always check any citations, code, text, or facts given to you from AI.
+✅ Always check any citations, code, text, or facts given to you from AI. 
+
+✅ Rerun the code on your own (outside of any AI tools) to ensure that it is reproducible. 
 
 ✅ Use AI when: you need help troubleshooting when you are stuck, you have something tedious to do, or to check your work, rather than using AI to directly do your work.
 
