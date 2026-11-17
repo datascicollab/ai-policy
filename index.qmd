@@ -193,7 +193,7 @@ Presentation: [CCCIF Preconference AI workshop: AI for Cancer Center Community O
 
 ✅ Always check any citations, code, text, or facts given to you from AI. 
 
-✅ Rerun the code on your own (outside of any AI tools) to ensure that it is reproducible. 
+✅ Always rerun code outside of any AI tools to ensure that it is reproducible. 
 
 ✅ Use AI when: you need help troubleshooting when you are stuck, you have something tedious to do, or to check your work, rather than using AI to directly do your work.
 
